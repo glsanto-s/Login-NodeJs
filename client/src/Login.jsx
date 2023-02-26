@@ -29,7 +29,7 @@ function App() {
       <div className="container">
         <div className="row mb-2 todos">
           <div className="col lado1">
-            <h4>Bem Vind@</h4>
+            <h4>Bem Vind@!</h4>
             <form>
               <input type={"email"} placeholder={"Email"} id={"email"} />
 
