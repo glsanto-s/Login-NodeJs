@@ -21,7 +21,8 @@ function registro() {
         confirmpassword: confirmpassword 
       })
       .then(function (response) {
-        alert("Usuário cadastrado com sucesso!")
+        alert("Usuário cadastrado com sucesso!");
+        window.location.href = '/'; 
       })
       .catch(function (error) {
         alert(error.response.data.msg);

@@ -15,7 +15,7 @@ function home() {
         </div>
         <div className="grupo">
           <div id="bolha">
-            <h3>Sucesso!</h3>
+            <h3>BEM VINDO!</h3>
           </div>
         </div>
       </div>

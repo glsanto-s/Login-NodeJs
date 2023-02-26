@@ -8,6 +8,7 @@
 
 *{
   font-family: 'Montserrat';
+  overflow: hidden;
 }
 body {
   color: var(--branco);
