@@ -15,7 +15,8 @@ function App() {
             password: password
           })
           .then(function () {
-            alert("Logado!");
+            console.log("logado!");
+            window.location.href = '/home'; 
           })
           .catch(function (error) {
             alert(error.response.data.msg);
@@ -28,7 +29,7 @@ function App() {
       <div className="container">
         <div className="row mb-2 todos">
           <div className="col lado1">
-            <h4>Welcome!</h4>
+            <h4>Bem Vind@</h4>
             <form>
               <input type={"email"} placeholder={"Email"} id={"email"} />
 

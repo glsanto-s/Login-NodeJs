@@ -6,7 +6,7 @@ const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
 const cors = require('cors')
 
-const app = express()
+const app = express();
 
 // Dando permissão para acesso
 app.use((req, res, next) => {
@@ -118,6 +118,6 @@ const dbPassword = process.env.DB_PASS
 
 mongoose.connect(`mongodb+srv://${dbUser}:${dbPassword}@cluster0.dkqou2z.mongodb.net/?retryWrites=true&w=majority`).then(() =>{
     app.listen(3001)
-    console.log('Concectou ao banco!')
+    console.log('Concectou ao banco!');
 }).catch((err) => console.log(err))
 
